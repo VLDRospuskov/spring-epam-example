@@ -16,7 +16,6 @@ class HelloComponent extends React.Component {
     
   render() {
     const {response} = this.state;
-
     return (
       <div>
     <div>{response ? response : null}</div>
